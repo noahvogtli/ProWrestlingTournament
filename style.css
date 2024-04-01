@@ -168,6 +168,12 @@ body {
         font-size: 12px;
     }
 
+    .bracket-name-box img
+    {
+        height: 25%;
+        width: auto;
+    }
+
     .bracket-box
     {
         flex-direction: column;
@@ -176,7 +182,7 @@ body {
 
     .bracket-name-box
     {
-        height: 25vh;
+        height: 30vh;
     }
     
     .next-button
