@@ -13,7 +13,7 @@
 - https://noahvogtli.github.io/ProWrestlingTournament
 
 ## Future Implementation
-- In the future, I plan on making several additions and edits to this project. First, is the creation of wrestlers. I intended to have implemented in this release but was focused on the requirements of the project first. Next, I would also want to format it a little different. The styling could definitely use an upgrade. Also, I would like it to be more animated, such as the wrestler pictures moving.
+- In the future, I plan on making several additions and edits to this project. First, is the creation of wrestlers. I intended to have implemented in this release but was focused on the requirements of the project first. Next, I would also want to format it a little different. The styling could definitely use an upgrade since it is a very basic and ugly theme. The phone formatting could also be a lot better. Also, I would like it to be more animated, such as the wrestler pictures moving.
 
 ## About the Author
 - All code and was written by me (Noah Vogtli). The algorithm for shuffling the array of objects was found at the credited resource in the functions document.
