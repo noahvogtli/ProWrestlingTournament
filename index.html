@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wrestling Tournament</title>
+    <link rel="stylesheet" href="indexstyle.css">
+    <link rel="icon" href="/pictures/RedWrestler.png">
+</head>
+<body>
+    <div class="content-flex">
+        <h2>Welcome to Pro Wrestling Tournament</h2>
+        <h4>About:</h4>
+        <p>This is a simulation of Wrestler Objects that will attack each other once every round.<br>
+            The Wrestler with the most health at the end of the round will be declared the winner.<br>
+            The Tournament will continue until there is only one Wrestler left standing.<br>
+            The "Autoplay" option will skip through the entire Tournament<br>
+            and just display the winner with the fight history. (the boring version)<br>
+            Click the "Start Tournament" button to begin<br>
+            May the best Wrestler Win. Good Luck!
+        </p>
+        <div class="button-flex">
+            <button id="start-button" class="start-button">Start Tournament</button>
+            <div style="display: flex;">
+                <input type="checkbox" id="checkbox" class="checkbox">
+                <label for="myCheckbox" class="checkbox">Autoplay</label>
+            </div>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

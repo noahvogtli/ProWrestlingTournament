@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wrestling Tournament</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/pictures/RedWrestler.png">
+</head>
+<body>
+    <button class="backButton" id="backButton">Back</button>
+    <h1 class="title">Pro Wrestling Tournament</h1>
+    <h3 id="winnersList" class="winnersList">Match Winners: </h3>
+    <h1 id="championName" class="championName"></h1>
+    <h2 id="matchRound" class="matchRound"></h2>
+    <div id="bracket-box" class="bracket-box">
+        <div class="bracket-flexes">
+            <div class="bracket-name-box">
+                <h3 id="wrestler1name"></h3>
+                <img id="wrestler1img" class="wrestlerIMG" src="" alt="">
+                <p id="attack1log"></p>
+                <progress id="wrestler1health" class="progress" value="100" max="100"></progress>
+                <label for="wrestler1health" id="health1label"></label>
+            </div>
+        </div>
+        <div class="vsBox">vs.</div>
+            
+        <div class="bracket-flexes">
+            <div class="bracket-name-box">
+                <h3 id="wrestler2name"></h3>
+                <img id="wrestler2img" class="wrestlerIMG" src="" alt="">
+                <p id="attack2log"></p>
+                <progress id="wrestler2health" class="progress" value="100" max="100"></progress>
+                <label for="wrestler2health" id="health2label"></label>
+            </div>
+        </div>
+    </div>
+    <button id="next-button" class="next-button" onclick="startTournament(wrestlers)">Start Tournament</button>
+    <div class="message-box" id="message-box"></div>
+    <!-- <script src="Wrestle.js"></script> -->
+    <script src="ManualWrestle.js"></script>
+    
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            startTournament(wrestlers);
+        });
+    </script> -->
+
+</body>
+</html>
