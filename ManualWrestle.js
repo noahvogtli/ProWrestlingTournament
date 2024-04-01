@@ -192,7 +192,7 @@ function resetCardMoves()
 function assignPicture(wrestlers)
 {
     let assignments = {};
-    let pictureList = ['pictures/BlueWrestler.png', 'pictures/RedWrestler.png', 'pictures/GreenWrestler.png', 'pictures/YellowWrestler.png', 'pictures/OrangeWrestler.png', 'pictures/PurpleWrestler.png'];
+    let pictureList = ['assets/BlueWrestler.png', 'assets/RedWrestler.png', 'assets/GreenWrestler.png', 'assets/YellowWrestler.png', 'assets/OrangeWrestler.png', 'assets/PurpleWrestler.png'];
     for (let i = 0; i < wrestlers.length; i++) 
     {
         assignments[wrestlers[i].name] = pictureList[Math.floor(Math.random() * pictureList.length)];
