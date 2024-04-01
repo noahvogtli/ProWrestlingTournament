@@ -1,4 +1,4 @@
-# Pro Wrestline Tournament
+# Pro Wrestling Tournament
 
 ## Table of Contents
 - [Introduction](#introduction)
