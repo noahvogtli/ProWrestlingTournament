@@ -48,6 +48,7 @@ body {
     height: 60vh;
     text-align: center;
     display: flex;
+    flex-direction: row;
 }
 
 .message-box
@@ -148,6 +149,53 @@ body {
 
 .backButton:hover {
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    body
+    {
+        margin: auto;
+    }
+
+    body h3
+    {
+        font-size: 16px;
+    }
+
+    body p
+    {
+        font-size: 12px;
+    }
+
+    .bracket-box
+    {
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+
+    .bracket-name-box
+    {
+        height: 25vh;
+    }
+    
+    .next-button
+    {
+        margin-bottom: 5%;
+    }
+
+    .message-box p
+    {
+        font-size: 12px;
+    }
+
+    .backButton
+    {
+        margin: 5%;
+        padding: 2% 5%;
+    }
+    
+
 }
 
 
